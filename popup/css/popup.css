@@ -1,0 +1,74 @@
+html, body {
+    background-color: #219C90;
+}
+
+#container {
+    height: 16rem;
+    width: 13rem;
+}
+
+#block-button {
+    font-family: Ubuntu;
+    border-radius: 1rem;
+    background-color: #EE9322;
+    border: solid 0.15rem black;
+    width: 9.5rem;
+    height: 6rem;
+    display: table;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#chill-container {
+    margin-top: 1.5rem;
+    float: right;
+    margin-right: 1rem;
+}
+
+#chill-label {
+    font-family: Ubuntu;
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+#chill-button {
+    background-color: #E9B824;
+    border: solid 0.15rem black;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#chill-input {
+    font-family: Ubuntu;
+    width: 1rem;
+    height: 1rem;
+    display: inline;
+}
+
+#block-specific {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    float: right;
+}
+
+#block-specific-label {
+    font-family: Ubuntu;
+    margin-bottom: 0.25rem;
+}
+
+#block-specific-input {
+    font-family: Ubuntu;
+    width: 8rem;
+    height: 2rem;
+    display: inline;
+}
+
+#block-specific-button {
+    background-color: #D83F31;
+    border: solid 0.15rem black;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+}

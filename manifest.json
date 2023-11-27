@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "focus_observer",
+    "author": {"email": "canuc80k@gmail.com"},
+    "description": "Block or redirect unwanted website",
+    "icons": {
+    },
+    
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content/jquery-3.7.0.min.js"]
+    }],
+    "background": {"service_worker": "background/service_worker.js"},
+    "action": {
+        "default_title": "focus_observer",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "declarativeNetRequest",
+        "tabs"
+    ],
+    "host_permissions": ["<all_urls>"]
+}
